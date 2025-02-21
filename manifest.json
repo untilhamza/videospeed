@@ -1,5 +1,5 @@
 {
-"update_url": "https://clients2.google.com/service/update2/crx",
+  "update_url": "https://clients2.google.com/service/update2/crx",
 
   "name": "Video Speed Controller",
   "short_name": "videospeed",
@@ -40,8 +40,10 @@
       "js": ["inject.js"]
     }
   ],
-  "web_accessible_resources": [{
-    "resources": ["inject.css", "shadow.css"],
-    "matches": ["http://*/*", "https://*/*", "file:///*"]
-  }]
+  "web_accessible_resources": [
+    {
+      "resources": ["inject.css", "shadow.css"],
+      "matches": ["http://*/*", "https://*/*", "file:///*"]
+    }
+  ]
 }
